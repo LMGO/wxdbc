@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/Login/main",
+    "pages/news/main",
+    "pages/index/main",
+    "pages/community/main",
+    "pages/detailed/main",
+    "pages/register/main",
+    "pages/my/main",
+    "pages/publish/main",
+    "pages/update/main",
+    "pages/search/main",
+    "pages/userDetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "识汪君",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "宠物社区",
+      "pagePath": "pages/community/main",
+      "iconPath": "static/tabs/cw.png",
+      "selectedIconPath": "static/tabs/cw1.png"
+    },
+    {
+      "text": "宠物识别",
+      "pagePath": "pages/news/main",
+      "iconPath": "static/tabs/gg.png",
+      "selectedIconPath": "static/tabs/gg1.png"
+    }
+    , {
+      "text": "我",
+      "pagePath": "pages/my/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-active.png"
+    }],
+    "position": "bottom"
+  }
+}

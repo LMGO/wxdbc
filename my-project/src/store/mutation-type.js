@@ -1,0 +1,1 @@
+export const MYINFO = 'myInfo'  //我的自定义资料
